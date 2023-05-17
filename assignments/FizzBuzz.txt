@@ -1,0 +1,15 @@
+For numbers 1 through 100,
+
+•If the number is divisible by 3, print “Fizz”
+
+•If the number is divisible by 5, print “Buzz”
+
+•If the number is divisible by both 3 and 5, print “FizzBuzz”
+
+•Otherwise, print the number
+
+Create a new java class called fizzBuzz.
+Create a main method just like the one we saw in class.
+Using loops and system.out.println write the algorithm for the above ask.
+Commit and push your code to github under your own account once you are finished.
+Due next week Monday
