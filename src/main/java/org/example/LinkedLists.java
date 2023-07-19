@@ -26,16 +26,7 @@ public class LinkedLists {
             cars.add("Ford");
             cars.add("Honda");
 
-//            System.out.println(cars); // head -> toyota -> ford -> honda
 
-//unique to linked list is these methods which are more effienct then arraylist and uniue to thier own structures.
-
-//        cars.addFirst();
-//        cars.removeFirst();
-//        cars.getFirst();
-
-
-//      head->  5 -> 2 -> 1 -> 7
 
 
         LinkedLists list = new LinkedLists();
@@ -49,17 +40,12 @@ public class LinkedLists {
 
         printList(list);
 
-// insert O(1), delete, access, search (o(n)) complexity
-// Time complexity o(n)
-// Space complexity
-
 
     }
 
 
     public static LinkedLists insertInto(LinkedLists list, int data) {
 
-//        head -> 1 -> 2 -> 4 -> null
         Node newNode = new Node(data);
         if (list.head == null) {
             list.head = newNode;
