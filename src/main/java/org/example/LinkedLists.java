@@ -39,17 +39,12 @@ public class LinkedLists {
 
         printList(list);
 
-// insert O(1), delete, access, search (o(n)) complexity
-// Time complexity o(n)
-// Space complexity
-
 
     }
 
 
     public static LinkedLists insertInto(LinkedLists list, int data) {
 
-//        head -> 1 -> 2 -> 4 -> null
         Node newNode = new Node(data);
         if (list.head == null) {
             list.head = newNode;
